@@ -1,0 +1,111 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f0f0f0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+    flex: 1;
+}
+
+#night {
+    padding: 8px 16px;
+    background: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#night:hover {
+    background: #333;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#send {
+    width: 100%;
+    padding: 10px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#send:hover {
+    background: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+#result h3 {
+    margin-top: 0;
+}
+
+#result strong {
+    display: inline-block;
+    width: 80px;
+}
+
+body.dark {
+    background: #222;
+}
+
+body.dark .container {
+    background: #333;
+    color: white;
+}
+
+body.dark input {
+    background: #555;
+    color: white;
+    border-color: #666;
+}
+
+body.dark #result {
+    background: #444;
+    border-color: #555;
+}
+
+body.dark #night {
+    background: #ffc107;
+    color: #333;
+}
+
+body.dark #night:hover {
+    background: #ffca2c;
+}
